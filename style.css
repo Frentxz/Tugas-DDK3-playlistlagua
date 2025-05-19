@@ -1,0 +1,50 @@
+#container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 400px;
+    gap: 10px;
+}
+
+.lagu{
+    border-radius: 10px;
+    border: 1px solid black;
+    width: 30%;
+    padding: 15px;
+}
+
+.lagu h2{
+    margin: 0;
+}
+
+.lagu img{
+    width: 100%;
+    border-radius: 100%; 
+    margin-top: 20px;
+}
+
+.bawah{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 45px;
+}
+
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 24
+  font-family: 'Material Symbols Outlined';
+  font-size: 20px;
+  vertical-align: middle;
+  display: inline-flex;
+  align-items: center;
+}
+
+.bg1 { background-color: #e76f51; }
+.bg2 { background-color: #f4a261; }
+.bg3 { background-color: #f0c27b; }
+.bg4 { background-color: #a8dadc; }
+.bg5 { background-color: #2a9d8f; }
